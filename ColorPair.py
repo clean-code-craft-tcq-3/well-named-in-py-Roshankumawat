@@ -34,4 +34,4 @@ def getColorNameAndPairNumber():
     print( totalNumberOfPairs)
     for pair_number in range(totalNumberOfPairs):
         oneBasedPairNumber=pair_number+1
-        print (oneBasedPairNumber, getColorFromPairNumber(oneBasedPairNumber))
+        return (oneBasedPairNumber, getColorFromPairNumber(oneBasedPairNumber))
