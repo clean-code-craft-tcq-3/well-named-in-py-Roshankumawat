@@ -1,3 +1,7 @@
+MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
+MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
+
+
 def getColorFromPairNumber(pair_number):
   zero_based_pair_number = pair_number - 1
   major_index = zero_based_pair_number // len(MAJOR_COLORS)
