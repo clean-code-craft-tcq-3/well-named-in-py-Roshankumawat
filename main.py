@@ -22,4 +22,4 @@ if __name__ == '__main__':
   testPairToNumber('Violet', 'Slate', 25)
   testPairToNumber('Red', 'Orange', 7)
   getColorNameAndPairNumber()
-  print('Done :)
+  print('Done :')
