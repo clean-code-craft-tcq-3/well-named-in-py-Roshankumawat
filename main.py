@@ -1,19 +1,14 @@
 import ColorPair
 
-MAJOR_COLORS = ['White', 'Red', 'Black', 'Yellow', 'Violet']
-MINOR_COLORS = ["Blue", "Orange", "Green", "Brown", "Slate"]
-
 def testNumberToPair(pair_number,
                         expected_major_color, expected_minor_color):
   major_color, minor_color = getColorFromPairNumber(pair_number)
   assert major_color == expected_major_color, 'Detected Major color did not match with Expected Major color'
   assert minor_color == expected_minor_color,'Detected Major color did not match with Expected Major color'
 
-
 def testPairToNumber(major_color, minor_color, expected_pair_number):
   pair_number = getPairNumberFromColor(major_color, minor_color)
   assert pair_number == expected_pair_number, 'Detected Major color did not match with Expected Major color'
-
 
 if __name__ == '__main__':
   testNumberToPair(4, 'White', 'Red')
