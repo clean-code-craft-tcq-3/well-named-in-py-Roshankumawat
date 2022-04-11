@@ -16,5 +16,5 @@ if __name__ == '__main__':
   testPairToNumber('Black', 'Orange', 12)
   testPairToNumber('Violet', 'Slate', 25)
   testPairToNumber('Red', 'Orange', 7)
-  getColorNameAndPairNumber() # noqa: F821
+  ColorPair.getColorNameAndPairNumber() # noqa: F821
   print('Done :')
