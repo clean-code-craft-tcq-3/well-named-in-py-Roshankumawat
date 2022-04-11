@@ -10,10 +10,11 @@ def testPairToNumber(major_color, minor_color, expected_pair_number):
    assert pair_number == expected_pair_number, 'Detected Major color did not match with Expected Major color'
      
 if __name__ == '__main__':
+  testPairToNumber('Violet', 'Slate', 25)
   testNumberToPair(4, 'White', 'Red')
   testNumberToPair(5, 'White', 'Slate')
   testPairToNumber('Black', 'Orange', 12)
-  testPairToNumber('Violet', 'Slate', 25)
+  
   testPairToNumber('Red', 'Orange', 7)
   getColorNameAndPairNumber() # noqa: F821
   print('Done :')
