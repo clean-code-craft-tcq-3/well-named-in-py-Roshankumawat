@@ -11,7 +11,7 @@ def testPairToNumber(major_color, minor_color, expected_pair_number):
      
 if __name__ == '__main__':
   
-  testNumberToPair(4, 'White', 'Red')
+  testNumberToPair(4, 'White', 'Brown')
   testNumberToPair(5, 'White', 'Slate')
   testPairToNumber('Black', 'Orange', 12)
   testPairToNumber('Violet', 'Slate', 25)
